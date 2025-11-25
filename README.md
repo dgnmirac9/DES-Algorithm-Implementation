@@ -3,13 +3,15 @@
 Bu proje, Fırat Üniversitesi Yazılım Mühendisliği bölümü **Bilgi Sistemleri ve Güvenliği** dersi kapsamında geliştirilmiştir. Python `pycryptodome` kütüphanesi kullanılarak, DES (Data Encryption Standard) algoritmasının temel çalışma prensibini ve padding (dolgu) mantığını göstermeyi amaçlar.
 
 ## 🎯 Proje Amacı
+
 Öğrenci numarasının son 2 hanesini (örneğin "18") alarak:
-1.  ASCII formatından Byte formatına dönüştürmek,
-2.  DES algoritmasının gerektirdiği 64-bit (8 Byte) blok boyutuna tamamlamak (PKCS7 Padding),
-3.  Simetrik bir anahtar ile şifrelemek,
-4.  Sonucu Hexadecimal (Onaltılık) formatta sunmaktır.
+1. ASCII formatından Byte formatına dönüştürmek,
+2. DES algoritmasının gerektirdiği 64-bit (8 Byte) blok boyutuna tamamlamak (PKCS7 Padding),
+3. Simetrik bir anahtar ile şifrelemek,
+4. Sonucu Hexadecimal (Onaltılık) formatta sunmaktır.
 
 ## 🛠️ Kullanılan Teknolojiler
+
 * **Dil:** Python 3.x
 * **Kütüphane:** PyCryptodome
 * **Algoritma:** DES (ECB Modu)
@@ -18,21 +20,9 @@ Bu proje, Fırat Üniversitesi Yazılım Mühendisliği bölümü **Bilgi Sistem
 
 Projeyi bilgisayarınıza klonlayın:
 ```bash
-git clone [https://github.com/KULLANICI_ADINIZ/DES-Algorithm-Implementation.git](https://github.com/KULLANICI_ADINIZ/DES-Algorithm-Implementation.git)
+git clone [https://github.com/dgnmirac9/DES-Algorithm-Implementation.git](https://github.com/dgnmirac9/DES-Algorithm-Implementation.git)
 cd DES-Algorithm-Implementation
-
-Gerekli kütüphaneyi yükleyin:
 
 pip install -r requirements.txt
 
-Uygulamayı çalıştırın:
-
 python main.py
-
-Örnek Çıktı
-
---- DES Şifreleme İşlemi Başlatılıyor ---
-Orijinal Veri (Son 2 Hane): 18
-Padding Yapılmış Veri (Hex): 3138060606060606
-Kullanılan Anahtar: b'MiracBey'
-Şifrelenmiş Veri (Hex): [BURADA_HEX_KODU_OLACAK]
