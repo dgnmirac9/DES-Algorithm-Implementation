@@ -20,7 +20,7 @@ Bu proje, Fırat Üniversitesi Yazılım Mühendisliği bölümü **Bilgi Sistem
 
 Projeyi bilgisayarınıza klonlayın:
 ```bash
-git clone [https://github.com/dgnmirac9/DES-Algorithm-Implementation.git](https://github.com/dgnmirac9/DES-Algorithm-Implementation.git)
+git clone https://github.com/dgnmirac9/DES-Algorithm-Implementation.git
 cd DES-Algorithm-Implementation
 
 pip install -r requirements.txt
