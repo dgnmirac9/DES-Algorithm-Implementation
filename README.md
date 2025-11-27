@@ -22,7 +22,12 @@ Projeyi bilgisayarınıza klonlayın:
 ```bash
 git clone https://github.com/dgnmirac9/DES-Algorithm-Implementation.git
 cd DES-Algorithm-Implementation
-
+```
+Gerekli kütüphaneyi yükleyin
+```bash
 pip install -r requirements.txt
-
+```
+Kodu çalıştırın
+```bash
 python main.py
+```
